@@ -1,0 +1,11 @@
+2019-08-06 10:31:52.454 PDT [42357] LOG:  listening on IPv6 address "::1", port 5432
+2019-08-06 10:31:52.454 PDT [42357] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-08-06 10:31:52.455 PDT [42357] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-08-06 10:31:52.466 PDT [42358] LOG:  database system was shut down at 2019-08-06 10:31:32 PDT
+2019-08-06 10:31:52.469 PDT [42357] LOG:  database system is ready to accept connections
+2019-08-06 13:20:09.198 PDT [45829] FATAL:  database "to_do_test" does not exist
+2019-08-06 13:20:09.244 PDT [45830] FATAL:  database "to_do_test" does not exist
+2019-08-06 13:26:04.855 PDT [45931] ERROR:  database "to_do_development" already exists
+2019-08-06 13:26:04.855 PDT [45931] STATEMENT:  CREATE DATABASE "to_do_development" ENCODING = 'unicode'
+2019-08-06 13:26:04.867 PDT [45932] ERROR:  database "to_do_test" already exists
+2019-08-06 13:26:04.867 PDT [45932] STATEMENT:  CREATE DATABASE "to_do_test" ENCODING = 'unicode'
